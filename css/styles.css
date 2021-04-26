@@ -1,0 +1,24 @@
+.size-navbar {
+  padding: 0.1px;
+  font-size: 11pt;
+}
+
+.center-text-carousel {
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.hide-title {
+  background-color: rgba(144, 144, 144, 0.70);
+  transform: translateY(-150%);
+  text-align: center;
+  font-size: 20pt;
+}
+
+.element-show:hover+.hide-title {
+  background-color: rgba(144, 144, 144, 1);
+}
+
+.font-contact {
+  font-size: 10pt;
+}
